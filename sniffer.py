@@ -1,8 +1,9 @@
 from scapy.all import *
 from mac_vendor_lookup import MacLookup
+from getmac import get_mac_address
 
 
-MAC = "f4:8c:eb:42:10:67"
+MAC = get_mac_address()
 
 
 def process_packet(output_format, p):
