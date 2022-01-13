@@ -28,8 +28,6 @@ def get_vendor(mac):
 
 def sniff(sniff_socket, output_format):
     raw_data, _ = sniff_socket.recvfrom(BUFFER_SIZE)
-    print(raw_data)
-    print("\n")
     _, _, ptype = struct.unpack("!6s6sH", raw_data[:14])
 
     if socket.htons(ptype) == 1544:
