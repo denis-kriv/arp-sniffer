@@ -1,8 +1,7 @@
 # ARP_Sniffer
 
 ## Requirements:
-* Windows 10
+* Ubuntu
 * Python3
-* Scapy
 
-## To use the tool, run the script `sniffer.py`
+## To use the tool, run `sudo python3 sniffer.py`
