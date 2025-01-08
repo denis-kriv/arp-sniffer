@@ -1,4 +1,4 @@
-# ARP_Sniffer
+# arp-sniffer
 
 ## Requirements:
 * Ubuntu
